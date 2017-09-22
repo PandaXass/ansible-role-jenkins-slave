@@ -21,9 +21,9 @@ galaxy_info:
 
   galaxy_tags:
     - system
-dependencies:
-  - { role: reallyenglish.redhat-repo, when: ansible_os_family == 'RedHat' }
-  - { role: reallyenglish.java }
-  - { role: reallyenglish.vagrant }
-  - { role: reallyenglish.virtualbox }
-  - { role: reallyenglish.ansible }
+#dependencies:
+#  - { role: reallyenglish.redhat-repo, when: ansible_os_family == 'RedHat' }
+#  - { role: reallyenglish.java }
+#  - { role: reallyenglish.vagrant }
+#  - { role: reallyenglish.virtualbox }
+#  - { role: reallyenglish.ansible }
